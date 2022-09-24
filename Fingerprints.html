@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+  <head> <title>Robel's Digital Portfolio</title> <link rel="stylesheet" href="external.css"> <meta charset="UTF-8"> </head>
+
+
+
+  <h1 class="centertxt">Robel Abraham's Digital Portfolio</h1>
+
+  <table>
+    <tr>
+      <td> <button onclick="location.href='../../index.html'">Home</button> </td>
+      <td> <button onclick="location.href='../../ISP.html'">ISP</button> </td>
+      <td> <button onclick="location.href='../../aboutMe.html'">About Me</button> </td>
+      <td> <button onclick="location.href='Fingerprints.html'">Fingerprints</button> </td>
+      <td> <button onclick="location.href='AISentienceSave.html'">AI Sentience</button> </td>
+      <td> <button onclick="location.href='OptimalSort.html'">Optimal Sort</button> </td>
+    </tr>
+  </table>
+
+
+
+
+  <br>
+
+
+
+
+  <h2 class="generalText"></h2>
+
+  <br>
+
+
+
+
+
+  <br>
+  <h2 class="centertxt">Fingerprints</h4>
+
+  <p class="centertxt">Robel Abraham<br><br>
+    Allen High School STEAM Campus<br><br>
+    Advanced Computer Science II<br><br>
+    Mr. Ben-Yaakov<br><br>
+    September 22,2022</p>
+  <br><br>
+
+  <h4 class="essayHeader">What are the two primary purposes of a secure, HTTPS connection?</h4>
+  <p class="essay"> 1. To ensure that data passed between the web server and browser is private and secure. <br />
+    2. To ensure that the identity of the website is authenticated and legitimate.
+    These reasons are why HTTPS is important for websites that require any kind of sensitive information from users, such as online stores, banking websites, and email services. They
+  want to protect their users’ data from being intercepted by third parties, and they want to prove to users that their website is the one they say it is.</p>
+  <h4 class="essayHeader">What is an HTTPS Proxy Appliance?</h4>
+  <p class="essay">An HTTPS proxy appliance is a device that is used to "circumvent our most basic assumption and guarantee of Internet browser privacy and security."(GRC 7). The appliance is typically deployed in front of web servers and can be used to monitor and log all traffic passing through it. The appliance can also be used to perform SSL/TLS decryption in order to inspect the contents of encrypted traffic. This can be useful for detecting malicious activity or for troubleshooting issues with web applications (HTTPS Everywhere 1).</p>
+  <h4 class="essayHeader">What is MITM?  What risks does this present?</h4>
+  <p class="essay">MITM stands for "man in the middle." This is a type of attack where the attacker inserts themselves between the communication of two parties in order to intercept and read the traffic. This presents the risk of the attacker being able to read sensitive information that is being communicated between the two parties. It can be prevented by using encryption, a VPN, or another secure tunnel.(Imperva 4)</p>
+  <h4 class="essayHeader">What is a hash? What are the essential qualities that make a hash a "good" hash?</h4>
+  <p class="essay">A hash is a function that converts an arbitrary amount of data into a fixed-size datum. They are used in cryptography for message integrity checks and storing passwords. The essential qualities that make a hash a good hash are that it is difficult to find two strings that hash to the same value and that it is difficult to find a string that hashes to a given value.</p>
+  <h4 class="essayHeader">What is a CA?</h4>
+  <p class="essay">A CA, or Certificate Authority, is a trusted third party that issues digital certificates. These certificates are used to verify the identity of a website or individual and to encrypt information. It's important to note that not all CAs are created equal; some are more reputable than others. CAs are used in various industries, including banking, healthcare, and government. They play a role in ensuring the security of online transactions by verifying the identity of the parties involved.</p>
+  
+  <h4 class="essayHeader">How can SSL interception be prevented?</h4>
+<p class="essay">The truth is, there is no way to prevent SSL Interception</p>
+<h4 class="essayHeader">How can SSL interception be detected?</h4>
+<p class="essay">There are a few ways to detect SSL interception:
+<br />
+  1. Check the certificate: If the certificate being used is not the expected one, then SSL interception is likely happening. Flowchart linked at the end of the article elaboates more on this.
+<br />
+  2. Check for browser warnings: Some browsers will warn users if they detect SSL interception.
+<br />
+  3. Use a tool like Wireshark: Wireshark can be used to look for unusual traffic patterns that may indicate SSL interception.</p>
+
+  <h4 class="essayHeader">What is a false-positive? What is a false-negative?</h4>
+<p class="essay">A false-positive is when a test incorrectly detects SSL interception when it is not happening. This can happen when the expected certificate is not used or there are other unusual traffic patterns.
+A false-negative is when a test does not detect SSL interception when it is happening. This can happen if the expected certificate is used or if the traffic patterns are not unusual. These stem from the fact that some forms of SSL interception are difficult to detect.</p>
+
+  <h4 class="essayHeader">Does your school / government / ISP have a right to eavesdrop on your communications?</h4>
+<p class="essay">This is a difficult question to answer. In general, it is legal for schools and government agencies to monitor communications on their networks. However, there are some circumstances where this may not be the case. For example, if you are using a VPN or encryption, then your communications may be protected from eavesdropping.</p>
+
+  <h4 class="essayHeader"></h4>
+  <p class="essay"> </p>
+  <br>
+  <br>
+<a href="https://codermerlin.com/users/robel-abraham/Digital%20Portfolio/FingerprintDiagram.drawio.html"><center><big><i>Flowchart on how to detect SSL Interceptions</i></big></center></a>
+  <br><br>
+  <p class="centertxt">References</p>
+
+  <p class="hanging">GRC (2016): <i>SSL TLS HTTPS web server certificate fingerprints.</i> GRC | SSL TLS HTTPS Web Server Certificate Fingerprints. Retrieved September 7, 2022, from https://www.grc.com/fingerprints.htm#top </p>
+<p class="hanging">Comptia. (2020). <i>What Is Wireshark and How to Use It | Cybersecurity | CompTIA.</i> Default. https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it
+‌</p>
+<p class="hanging">HTTPS Everywhere. (2011, October 7).<i> HTTPS Everywhere.</i> Electronic Frontier Foundation. https://www.eff.org/https-everywhere
+  _</p>
+<p class="hanging">Imperva. (2019). <i>What is MITM (Man in the Middle) Attack | Imperva.</i> Learning Center. https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/
+  ‌</p>
+
+
+
+
+</body>
+</html>
+
